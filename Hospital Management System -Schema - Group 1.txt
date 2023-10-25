@@ -1,0 +1,16 @@
+use hospital;
+show tables;
+
+insert into users(username,password,role) values ('abhinav','abhinav','Admin');
+
+insert into users(username,password,role) values ('drabhinav','drabhinav','Doctor');
+
+insert into users(username,password,role) values ('Pabhinav','Pabhinav','Patient');
+
+
+select * from users;
+select * from application;
+select * from doctor;
+select * from invoice;
+select * from appointment;
+select * from Patient;
